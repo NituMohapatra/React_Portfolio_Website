@@ -1,0 +1,50 @@
+.navbar{
+    max-width: 100vw;
+}
+.navbar_design{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    min-width: 100vw;
+    background-color: #0c0f1bef;
+}
+.navbar_style{
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.navbar_logo{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family:cursive;
+    
+}
+.navbar_logo img{
+    height: 43px;
+    width:47px;
+}
+.navbar_main{
+    margin-left: 50px;
+    width: 50vw;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar_main a{
+    color: white;
+    text-decoration: none;
+    font-family:cursive;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+.navbar_main .active {
+    font-weight: 500;
+    color: rgb(255, 234, 0); 
+}
+.navbar_main .active {
+    transition: color 0.6s ease-in-out;
+}
